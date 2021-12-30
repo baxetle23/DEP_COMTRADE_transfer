@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "comtrade_transfer_trace.h": "c",
+        "comtrade_transfer_tracelogger.h": "c"
+    }
+}

@@ -1,0 +1,20 @@
+//------------------------------------------------------------------------
+//		DeCONT: Задача "Вычитывание архивов COMTRADE"
+//		ID = 8498 = 33944
+//------------------------------------------------------------------------
+#define  IDL_COMTRADE_Transfer  IDC_COMTRADE_Transfer
+
+#define  __COMTRADE_Transfer_VERSION__ 0x00020000
+
+//#define __TESTED__
+
+#ifdef __TESTED__
+	#define __COMTRADE_Transfer_BUILD__ 0x00000001
+#else
+//	#define __COMTRADE_Transfer_BUILD__ 0x00000005
+//	#define __COMTRADE_Transfer_BUILD__ 0x00000006 //evk 2019-11-12
+											//Get_File: "*delete %s"
+	#define __COMTRADE_Transfer_BUILD__ 0x00000007 //aik 2021-08-04
+#endif
+
+VLIBRARY(COMTRADE_Transfer);

@@ -1,0 +1,20 @@
+../../COMTRADE_transfer.c: In function 'void ReadConfig()':
+../../COMTRADE_transfer.c:128:56: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c:140:42: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c:144:52: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c: In function 'int PurgeArchive(DWORD)':
+../../COMTRADE_transfer.c:311:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c: In function 'void Get_File(char*)':
+../../COMTRADE_transfer.c:367:52: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c:375:51: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c:416:43: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c:422:89: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c: In function 'size_t GetListing(void*, size_t, size_t, char*)':
+../../COMTRADE_transfer.c:552:42: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c:563:44: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c: In function 'void Connect(TRemoteHost*)':
+../../COMTRADE_transfer.c:716:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c: In function 'void COMTRADE_Transfer_TaskStart()':
+../../COMTRADE_transfer.c:795:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../COMTRADE_transfer.c: In function 'BOOL LibMain(HCTX)':
+../../COMTRADE_transfer.c:850:71: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
